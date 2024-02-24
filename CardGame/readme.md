@@ -1,4 +1,4 @@
-# About
+﻿# About
 
 This is a program I came across online from someone who was learning C#. It is a single file, all run within the Main() function and has two static functions.
 
@@ -32,5 +32,5 @@ The code has multiple problems:
 
 ## Task
 
-Rewrite the code using classes and methods. Only the `Main()` function should contain any calls to the console for printing.
+Rewrite the code using classes and methods. Only the ``Main()` function should contain any calls to the console for printing.
 
