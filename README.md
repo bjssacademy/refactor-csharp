@@ -17,17 +17,17 @@ The code has multiple problems:
 
 1. Both player and dealer are dealt two cards each from a standard 52 card deck.
 2. The player has the first turn. Without knowing the dealers total they must choose to HIT or CALL
-3. If they HIT, then they are dealt the next 3 cards in the deck.
-3.1 If the total of their five cards is greater than 21, they have bust and the game is over and the dealer wins
-3.2 If the total of their five cards is exactly 21, they have won and no more cards are dealt
-3.3 If the total of their five cards is less than 21, then they have won and no more cards are dealt
-4. If the player chooses to CALL instead, then no more cards are dealt to the player and the turn passes to the dealer
-4.1 If the dealer's two card are greater than the player's two cards, then the dealer wins, and no more cards are dealt
-4.2 If the dealer's cards total less than or the same as the player's, then they must draw 3 more cards
-4.2.1 If the dealer's 5 cards total greater than 21, then they have bust and the player is declared the winner and the game is over
-4.2.2 If the dealer's 5 cards total more than the player's cards, then the dealer has won and the game is over
-4.2.3 If the dealer's 5 cards total less than the player's cards, then the player has won and the game is over
-4.2.4 If the dealer's 5 cards total the same as they player then the game is a push (a draw) and the game is over
+3. If they HIT, then they are dealt the next 3 cards in the deck:
+    1. If the total of their five cards is greater than 21, they have bust and the game is over and the dealer wins
+    2. If the total of their five cards is exactly 21, they have won and no more cards are dealt
+    3. If the total of their five cards is less than 21, then they have won and no more cards are dealt
+4. If the player chooses to CALL instead, then no more cards are dealt to the player and the turn passes to the dealer:
+    1. If the dealer's two card are greater than the player's two cards, then the dealer wins, and no more cards are dealt
+    2. If the dealer's cards total less than or the same as the player's, then they must draw 3 more cards:
+        1. If the dealer's 5 cards total greater than 21, then they have bust and the player is declared the winner and the game is over
+        2. If the dealer's 5 cards total more than the player's cards, then the dealer has won and the game is over
+        3. If the dealer's 5 cards total less than the player's cards, then the player has won and the game is over
+        4. If the dealer's 5 cards total the same as they player then the game is a push (a draw) and the game is over
 5. An Ace is worth only 1. Every other card (2-10) is worth its face value, with picture cards (J, Q, K) being worth 10.
 
 ## Task
